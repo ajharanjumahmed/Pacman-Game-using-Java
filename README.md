@@ -4,7 +4,6 @@ A classic Pac-Man clone built with Java Swing, faithfully recreating the arcade 
 
 ![Game Screenshot](./screenshot.png)
 
----
 
 ## 📋 Overview
 This project implements the fundamental mechanics of Pac-Man: navigating a maze, collecting all pellets, and avoiding ghosts. Built solely in Java using the Swing toolkit, it demonstrates:
@@ -13,7 +12,6 @@ This project implements the fundamental mechanics of Pac-Man: navigating a maze,
 - **Tile-based Rendering**: Maze rendering using a 2D int array to define walls and pellets.
 - **Entity Management**: Separate classes for Pac-Man and Ghosts, each handling movement, animation, and collision logic.
 
----
 
 ## ⭐ Features
 
@@ -30,7 +28,6 @@ This project implements the fundamental mechanics of Pac-Man: navigating a maze,
 5. **Level Completion & Reset**
    - Automatically reloads map when all pellets are consumed, preserving total score and lives.
 
----
 
 ## 🛠️ Technologies & Tools
 
@@ -38,14 +35,12 @@ This project implements the fundamental mechanics of Pac-Man: navigating a maze,
 - **GUI**: Java Swing (`JFrame`, `JPanel`, `Graphics2D`)
 - **Build**: Plain `javac` / IDE (Eclipse, IntelliJ, VS Code) or Maven (as an option)
 
----
 
 ## 🔧 Prerequisites
 
 - **JDK 8+** installed and `JAVA_HOME` configured.
 - (Optional) **Maven 3+** if you prefer to manage dependencies and generate a JAR.
 
----
 
 ## ■■ Build & Run
 This section covers prerequisites, building the project, and running the game.
@@ -73,7 +68,7 @@ This section covers prerequisites, building the project, and running the game.
 ## ■ Controls
 - **Arrow Keys**: Move Pac-Man (Up, Down, Left, Right).
 - **Enter or Any Key** (after Game Over): Restart game.
----
+
 ## ■■ Code Highlights
 - **App.java**: Initializes the JFrame, sets size to match maze dimensions, and starts the game
 panel.
