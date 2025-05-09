@@ -42,7 +42,7 @@ This project implements the fundamental mechanics of Pac-Man: navigating a maze,
 - (Optional) **Maven 3+** if you prefer to manage dependencies and generate a JAR.
 
 
-## ■■ Build & Run
+## 🏗️ Build & Run
 This section covers prerequisites, building the project, and running the game.
 ### Prerequisites
 - **JDK 8+** installed and `JAVA_HOME` configured.
@@ -65,11 +65,11 @@ This section covers prerequisites, building the project, and running the game.
  # With Maven:
  java -jar target/pacman-java-1.0.jar
  ```
-## ■ Controls
+## 🎮 Controls
 - **Arrow Keys**: Move Pac-Man (Up, Down, Left, Right).
 - **Enter or Any Key** (after Game Over): Restart game.
 
-## ■■ Code Highlights
+## 🧠 Code Highlights
 - **App.java**: Initializes the JFrame, sets size to match maze dimensions, and starts the game
 panel.
 - **PacMan.java**: Implements `Runnable`, handling:
@@ -79,6 +79,6 @@ panel.
  - **Collision Checks**: Pellets vs. Pac-Man tile, ghost collisions.
 - **Assets**: Stored in `resources/`, loaded via `ImageIO.read()` for each sprite.
 
-## ■ Possible Enhancements
+## 🔄 Possible Enhancements
 - **Multiple Levels**: Load different maze layouts and increase difficulty.
 - **Sound Effects**: Add Waka-Waka, ghost defeat, and death sounds via `javax.sound`.
